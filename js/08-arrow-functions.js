@@ -36,6 +36,6 @@ console.log(r5);
 
 const tekstas = 'Labas rytas';
 
-const pirmaRaide = s => s[0];
+const pirmaRaide = s => s[1];
 
 console.log(pirmaRaide(tekstas));
