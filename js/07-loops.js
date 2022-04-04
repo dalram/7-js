@@ -2,7 +2,7 @@ const pazymiai = [10, 2, 8, 4, 6];
 let sumaFor = 0;
 //  skaiciuojam pazymiu vidurki
 // for greiciausias ir efektyviausias ciklas(loop), kiti naudojami del patogumo naudoti.
-// LOOPS: for, while, for-in, for-of, foreach, ...
+// LOOPS: for, while, for-of, foreach, ...
 // OBJECT-LOOP: for-in
 for (let i1 = 0; i1 < pazymiai.length; i1++) {
     const pazymys = pazymiai[i1];
@@ -54,5 +54,8 @@ pazymiai.forEach((pazymys, i4) => {
     sumaForEach += pazymys;
     console.log(`${i4}) pazymys ${pazymys} [${sumaForEach}]`);
 
-}) 
+});
+
+
+
 
