@@ -18,7 +18,7 @@ function reverseString2(text) {
     let reverse = '';
 
     for (let i=0; i<text.length; i++) {
-        reverse = text[i] + reverse;
+        reverse = text[i] + reverse; // ziuret funkcijas step by step, ka paima ir prie ko prideda is pradziu, suskaldyti viska ir sudeti i viena.
 
     }
     return reverse;
