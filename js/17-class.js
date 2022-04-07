@@ -107,3 +107,5 @@ bankomatas2.status();
 // bankomatas1.cashOut(9);
 // bankomatas1.cashOut(9);
 // console.log(bankomatas1.money);
+
+// pasidaryt radijo class`e po visu kitu classiu is nd
